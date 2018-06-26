@@ -1,0 +1,80 @@
+<!-- <head>
+<div>
+  <h1>
+  {{ title}}
+</h1>
+</div>
+</head> -->
+<body style="background-color: white;">
+<div style="text-align:center;">
+  <img width="100" src="{{myLogo}}">
+</div>
+<div style="text-align:center">
+  <h1>
+   {{ title }}
+  </h1>
+</div>
+
+<style>
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #465;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover:not(.active) {
+    background-color: #111;
+}
+
+.active {
+    background-color: #4CAF50;
+}
+
+
+.footer {
+   position: fixed;
+   left: 0;
+   bottom: 0;
+   width: 100%;
+   background-color: LightSlateGray;
+   color: white;
+   text-align: center;
+}
+</style>
+<ul>
+  <li><a href="#home">Home</a></li>
+  <li><a href="#Films">Films</a></li>
+  <li><a href="#Times">Times</a></li>
+  <li style="float:right"><a class="active" href="#about">About</a></li>
+</ul>
+
+
+
+
+ <div class ="footer">
+  <ul>
+  <li>
+    <h2><a target="_blank" rel="noopener" href="https://google.co.uk">Contacts</a></h2>
+  </li>
+    <li>
+    <h2><a target="_blank" rel="noopener" href="https://youtube.co.uk">About</a></h2>
+  </li>
+</ul>
+
+</div>
+</body>
